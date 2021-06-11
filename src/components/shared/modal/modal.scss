@@ -1,0 +1,77 @@
+.modal-section {
+
+	.modal-inner{
+		position: fixed;
+		width: 400px;
+		box-shadow: 0 0 20px 5px #000;
+		padding: 20px;
+		color: #fff;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #1F233F;
+
+		.form {
+			margin-top: 20px;
+	
+			.MuiGrid-item {
+				color: #fff;
+				width: 100%;
+				margin-top: 30px;
+				
+				.MuiTextField-root{
+					margin-top: 10px;
+					width: 100%;
+				}
+
+				input{
+					color: #fff;
+					background-color: #1B1E37;
+
+					&::placeholder{
+						color: #fff;
+					}
+				}
+
+				fieldset{
+					border-color: #1F233F;
+				}
+
+				label{
+					color: #fff;
+				}
+
+				.desc {
+					color: #505794;
+					margin-top: 20px;
+					margin-bottom: 30px;
+				};
+				
+				.txt-advice{
+					margin: 10px 0 20px 10px;
+					color: #6971B2;
+				}
+			}
+		}
+
+		.buttons-group {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 30px;
+
+			button{
+				border: 0;
+				border-radius: 4px;
+
+				&.btn-cancel{
+					color: #09B1F3;
+				}
+
+				&.btn-confirm{
+					color: #fff;
+					background-color: #02BAFF
+				}
+			}
+		};
+	}
+}

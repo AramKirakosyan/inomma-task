@@ -1,0 +1,66 @@
+header{
+  padding: 20px 3%;
+
+  h3{
+    color: #fff;
+  }
+}
+
+main{
+  padding: 20px;
+  background-color: #1F233F;
+
+  .MuiOutlinedInput-root{
+
+    .MuiInputBase-inputTypeSearch{
+      color: #fff;
+      min-width: 200px;
+      background-color: #1B1E37;
+      width: 270px;
+      max-width: 100%;
+
+      &::placeholder{
+        color: #fff;
+      }
+    }
+
+    .MuiOutlinedInput-notchedOutline{
+      border-color: #1B1E37;
+    }
+
+  }
+
+  .MuiPaper-elevation1{
+    box-shadow: none;
+    border-radius: 0;
+
+    table.MuiTable-root{
+      background-color: #1F233F;
+  
+      *{
+        color: #fff;
+      }
+  
+      .MuiButtonGroup-root{
+  
+        button{
+          border: 0;
+  
+          &.btn-edit{
+  
+            svg{
+              fill: #15EDB1;
+            }
+          }
+  
+          &.btn-delete{
+  
+            svg{
+              fill: #F44436;
+            }
+          }
+        }
+      }
+    }
+  }
+}
